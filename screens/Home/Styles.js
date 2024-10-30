@@ -1,0 +1,76 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  logo: {
+    marginTop: 100,
+    width: 150,
+    height: 150,
+    backgroundColor: "black",
+    borderRadius: 30
+  },
+  containerInicialPage: {
+    backgroundColor: "#bfe555",
+    alignItems: "center",
+    justifyContent: "flex-start",
+    width: "100%",
+    height: "100%",
+    flex: 1,
+  },
+  titulo: {
+    fontSize: 50,
+    color: "black",
+    alignItems: "center",
+    justifyContent: "center",
+    fontFamily: "serif",
+    fontWeight: "bold",
+  },
+  inputViewBottomVerticalTitulo: {
+    marginTop: 30,
+  },
+  buttonInicio: {
+    fontSize: 16,
+    textAlign: "center",
+    textAlignVertical: "center",
+    color: "white",
+    width: 110,
+    height: 50,
+    borderRadius: 10,
+    backgroundColor: "black",
+    fontFamily: "serif",
+    fontWeight: "bold",
+    marginTop: 230,
+  },
+  buttonTema: {
+    fontSize: 16,
+    textAlign: "center",
+    textAlignVertical: "center",
+    color: "white",
+    width: 110,
+    height: 50,
+    borderRadius: 10,
+    backgroundColor: "black",
+    fontFamily: "serif",
+    fontWeight: "bold",
+    marginTop: 20,
+  },
+  buttonQuestao: {
+    fontSize: 16,
+    textAlign: "center",
+    textAlignVertical: "center",
+    color: "white",
+    width: 110,
+    height: 50,
+    borderRadius: 10,
+    backgroundColor: "black",
+    fontFamily: "serif",
+    fontWeight: "bold",
+    marginTop: 20,
+  },
+  viewbottom: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-evenly",
+    width: "90%",
+  },
+});
+export default styles;
